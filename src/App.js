@@ -12,7 +12,7 @@
 //   return (
 //     <div className="App">
 //       <div className="Wrapper">
-      
+
 //         <img src={p1} width="640" height="360" className="Pagina" alt="pagina 1" />
 //         <img src={p2} width="640" height="360" className="Pagina" alt="pagina 2" />
 //         <img src={p3} width="640" height="360" className="Pagina" alt="pagina 3" />
@@ -48,9 +48,9 @@ function App() {
 
   return (
     <main>
-      <section className="menu section">
+      <section className="wrapper">
         <div className="title">
-          <h2>Bar Consultorio</h2>
+          <h1>Bar Consultorio</h1>
           <div className="underline"></div>
         </div>
         <Categories categories={categories} filterItems={filterItems} />

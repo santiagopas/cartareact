@@ -3,8 +3,8 @@ const menu = [
     id: 1,
     title: 'Amaretto Sour',
     category: 'Vademécum',
-    price: 260,
-    img:'../assets/img/item-1.png',
+    price: 100,
+    img: './images/item-1.png',
     desc: `Licor de amaretto, Jugo de limón, clara de huevo/aquafaba.`,
   },
   {
@@ -12,6 +12,7 @@ const menu = [
     title: 'Black Russian',
     category: 'Vademécum',
     price: 300,
+    img: './images/item-1.png',
     desc: `Vodka Smirnoff, licor Borghetti y granos de café.`,
   },
   {
@@ -19,6 +20,7 @@ const menu = [
     title: 'Blue Blazer',
     category: 'Vademécum',
     price: 360,
+    img: './images/item-1.png',
     desc: `Johnnie Walker Red Label, almíbar, agua hirviendo, twist de limón/naranja.`,
   },
   {
@@ -26,6 +28,7 @@ const menu = [
     title: 'Boulevardier',
     category: 'Vademécum',
     price: 360,
+    img: './images/item-1.png',
     desc: `Whiskey Bourbon, bitter rojo , vermut rosso, slice de naranja.`,
   },
   {
@@ -33,13 +36,15 @@ const menu = [
     title: 'Fernet con cola',
     category: 'Vademécum',
     price: 300,
-    desc: `Fernet Branca con gaseosa coca cola .`,
+    img: './images/item-1.png',
+    desc: ` Fernet Branca con gaseosa coca cola .`,
   },
   {
     id: 6,
     title: 'Caipiroska',
     category: 'Vademécum',
     price: 310,
+    img: './images/item-1.png',
     desc: `Vodka Smirnoff, jugo de lima y almíbar.
     Variación: Caipirinha.`,
   },
@@ -48,6 +53,7 @@ const menu = [
     title: 'Captain Levi',
     category: 'Vademécum',
     price: 330,
+    img: './images/item-1.png',
     desc: `Whisky irlandés, fernet branca, almíbar simple y menta.`,
   },
   {
@@ -55,6 +61,7 @@ const menu = [
     title: 'Cream dream',
     category: 'Vademécum',
     price: 330,
+    img: './images/item-1.png',
     desc: `Amarula, Ron añejo, crema, Rayadura de cacao.`,
   },
   {
@@ -62,6 +69,7 @@ const menu = [
     title: 'Cuba libre',
     category: 'Vademécum',
     price: 300,
+    img: './images/item-1.png',
     desc: `Ron blanco, gaseosa cola, jugo y gajo/piel de limón.`,
   },
   {
@@ -69,6 +77,7 @@ const menu = [
     title: 'Cynar julep',
     category: 'Vademécum',
     price: 260,
+    img: './images/item-1.png',
     desc: `Cynar 70, jugo de lima, menta, azúcar y jugo de pomelo.`,
   },
   {
@@ -76,6 +85,7 @@ const menu = [
     title: 'Dry Martini',
     category: 'Vademécum',
     price: 290,
+    img: './images/item-1.png',
     desc: 'Gin Gordon´s, vermut dry, piel de limón, aceituna.'
   },
   {
@@ -83,6 +93,7 @@ const menu = [
     title: 'Gin Tonic',
     category: 'Vademécum',
     price: 300,
+    img: './images/item-1.png',
     desc: 'Gin Gordon´s, tónica, piel de limón (y/o tus botánicos favoritos).'
   },
   {
@@ -90,6 +101,7 @@ const menu = [
     title: 'God Father',
     category: 'Vademécum',
     price: 320,
+    img: './images/item-1.png',
     desc: 'Johnnie Walker Red label y licor de amaretto'
   },
   {
@@ -97,6 +109,7 @@ const menu = [
     title: 'Hanky Panky',
     category: 'Vademécum',
     price: 300,
+    img: './images/item-1.png',
     desc: 'Gin Gordon´s, vermut rosso, fernet y twist de naranja.'
   },
   {
@@ -104,6 +117,7 @@ const menu = [
     title: 'Long island ice tea',
     category: 'Vademécum',
     price: 380,
+    img: './images/item-1.png',
     desc: 'Gin Gordon´s, tequila, vodka Smirnoff, ron blanco, triple sec, almíbar, jugo de limón, gaseosa cola, slice de limón.'
   },
   {
@@ -111,6 +125,7 @@ const menu = [
     title: 'Manhattan',
     category: 'Vademécum',
     price: 360,
+    img: './images/item-1.png',
     desc: 'Whiskey, vermut rosso, bitter aromático y cereza.'
   },
   {
@@ -118,6 +133,7 @@ const menu = [
     title: 'Margarita',
     category: 'Vademécum',
     price: 290,
+    img: './images/item-1.png',
     desc: 'Tequila, triple sec, jugo de lima, almíbar.'
   },
   {
@@ -125,6 +141,7 @@ const menu = [
     title: 'Martínez',
     category: 'Vademécum',
     price: 290,
+    img: './images/item-1.png',
     desc: 'Gin Gordon’s, vermut dry, maraschino, bitter aromático, piel de lima.'
   },
   {
@@ -132,6 +149,7 @@ const menu = [
     title: 'Mojito',
     category: 'Vademécum',
     price: 300,
+    img: './images/item-1.png',
     desc: 'Ron blanco, lima, almíbar, menta, soda. '
   },
   {
@@ -139,6 +157,7 @@ const menu = [
     title: 'Moscow Mule',
     category: 'Vademécum',
     price: 290,
+    img: './images/item-1.png',
     desc: 'Vodka Smirnoff, jugo de lima, ginger ale.'
   },
   {
@@ -146,6 +165,7 @@ const menu = [
     title: 'Negroni',
     category: 'Vademécum',
     price: 290,
+    img: './images/item-1.png',
     desc: 'Gin Gordon’s, bitter rojo, vermut rosso.'
   },
   {
@@ -153,6 +173,7 @@ const menu = [
     title: 'Old Fashioned',
     category: 'Vademécum',
     price: 360,
+    img: './images/item-1.png',
     desc: 'Whiskey, bitter aromático, azúcar, slice de naranja, cereza.'
   },
   {
@@ -160,6 +181,7 @@ const menu = [
     title: 'Paloma',
     category: 'Vademécum',
     price: 300,
+    img: './images/item-1.png',
     desc: 'Tequila, jugo de lima, pomelo.'
   },
   {
@@ -167,6 +189,7 @@ const menu = [
     title: 'Penicillin',
     category: 'Vademécum',
     price: 290,
+    img: './images/item-1.png',
     desc: 'Whisky escocés, jugo de limón, jengibre, miel.'
   },
   {
@@ -174,6 +197,7 @@ const menu = [
     title: 'Piña colada',
     category: 'Vademécum',
     price: 290,
+    img: './images/item-1.png',
     desc: 'Ron blanco, ananá, crema de coco, lima, almíbar.'
   },
   {
@@ -181,6 +205,7 @@ const menu = [
     title: 'Pisco sour',
     category: 'Vademécum',
     price: 260,
+    img: './images/item-1.png',
     desc: 'Pisco, Jugo de lima, almíbar, clara de huevo, bitter’s.'
   },
   {
@@ -188,6 +213,7 @@ const menu = [
     title: 'Presidente',
     category: 'Vademécum',
     price: 260,
+    img: './images/item-1.png',
     desc: 'Ron blanco, vermut bianco, triple sec, granadina, piel de naranja.'
   },
   {
@@ -195,6 +221,7 @@ const menu = [
     title: 'Ramoz Gin Fizz',
     category: 'Vademécum',
     price: 380,
+    img: './images/item-1.png',
     desc: 'Gin Gordon’s, almíbar, jugo de lima, jugo de limón, crema, clara de huevo, dashes de agua de azahar, vainilla, soda, piel de naranja.'
   },
   {
@@ -202,6 +229,7 @@ const menu = [
     title: 'Rob Roy',
     category: 'Vademécum',
     price: 300,
+    img: './images/item-1.png',
     desc: 'Johnnie Walker Red Label, vermut rosso, bitter aromático y cereza.'
   },
   {
@@ -209,6 +237,7 @@ const menu = [
     title: 'Sazerac',
     category: 'Vademécum',
     price: 290,
+    img: './images/item-1.png',
     desc: 'Coñac, absenta, almíbar, bitter aromático, piel de limón.'
   },
   {
@@ -216,6 +245,7 @@ const menu = [
     title: 'Sex on the Beach',
     category: 'Vademécum',
     price: 320,
+    img: './images/item-1.png',
     desc: 'Vodka Smirnoff, Licor de Durazno, Jugo de lima, Jugo de naranja, arándanos y almíbar.'
   },
   {
@@ -223,6 +253,7 @@ const menu = [
     title: 'Spritz',
     category: 'Vademécum',
     price: 280,
+    img: './images/item-1.png',
     desc: 'Aperol Spritz, espumante, soda, rodaja de naranja.'
   },
   {
@@ -230,6 +261,7 @@ const menu = [
     title: 'T.N.T.',
     category: 'Vademécum',
     price: 330,
+    img: './images/item-1.png',
     desc: 'Tequila, agua tónica, piel de limón.'
   },
   {
@@ -237,6 +269,7 @@ const menu = [
     title: 'Tom Collins',
     category: 'Vademécum',
     price: 350,
+    img: './images/item-1.png',
     desc: 'Gin Old Tom, Jugo de limón, azúcar, soda, bitter.'
   },
   {
@@ -244,6 +277,7 @@ const menu = [
     title: 'Wiskey sour',
     category: 'Vademécum',
     price: 400,
+    img: './images/item-1.png',
     desc: 'Whiskey bourbon, jugo de limón, almíbar.'
   },
   {
@@ -251,6 +285,7 @@ const menu = [
     title: 'White lady',
     category: 'Vademécum',
     price: 280,
+    img: './images/item-1.png',
     desc: 'Gin Gordon’s, triple sec, jugo de limón, piel de limón.'
   },
   {
@@ -258,6 +293,7 @@ const menu = [
     title: 'White russian',
     category: 'Vademécum',
     price: 320,
+    img: './images/item-1.png',
     desc: 'Vodka Smirnoff, Borghetti, crema, granos de café.'
   },
   {
@@ -265,6 +301,7 @@ const menu = [
     title: 'Rook (Br. Maximiliano Aguirre)',
     category: 'Vademécum',
     price: 350,
+    img: './images/item-1.png',
     desc: 'Ron añejo, Borghetti, amaretto, malibu, crema y cacao.'
   },
   {
@@ -272,6 +309,7 @@ const menu = [
     title: 'Elixir',
     category: 'Fórmulas-magistrales',
     price: 330,
+    img: './images/item-1.png',
     desc: 'Absenta, coñac, miel, jugo de mandarina, jugo de lima, aquafaba, ahumado.'
   },
   {
@@ -279,6 +317,7 @@ const menu = [
     title: 'Dr. Silvyus',
     category: 'Fórmulas-magistrales',
     price: 310,
+    img: './images/item-1.png',
     desc: 'Branca menta, ginebra, punt e mes, jugo de naranja, jugo de lima, orange bitter, pimienta.'
   },
   {
@@ -286,6 +325,7 @@ const menu = [
     title: 'Serendipity',
     category: 'Fórmulas-magistrales',
     price: 390,
+    img: './images/item-1.png',
     desc: 'Gin Gordon’s, hesperidina, licor de cassis, jugo de naranja y lima.'
   },
   {
@@ -293,6 +333,7 @@ const menu = [
     title: 'Hechizo de las 100 primaveras',
     category: 'Fórmulas-magistrales',
     price: 330,
+    img: './images/item-1.png',
     desc: 'Gin Gordon’s, liquore Strega, jugo de limón, naranja, azahar, jengibre'
   },
   {
@@ -308,6 +349,7 @@ const menu = [
     title: 'Diga 33',
     category: 'Fórmulas-magistrales',
     price: 310,
+    img: './images/item-1.png',
     desc: 'Grappa, apricot brandy, jugo de naranja.'
   },
   {
@@ -315,6 +357,7 @@ const menu = [
     title: 'Clonazepam',
     category: 'Fórmulas-magistrales',
     price: 310,
+    img: './images/item-1.png',
     desc: 'Gin Gordon’s, jengibre, jugo de limón, bitter de naranja, slice de pepino.'
   },
   {
@@ -322,6 +365,7 @@ const menu = [
     title: 'Aspirineta',
     category: 'Fórmulas-magistrales',
     price: 310,
+    img: './images/item-1.png',
     desc: 'Whisky, almíbar, Jugo de naranja, bitter aromático, piel de naranja.'
   },
   {
@@ -329,6 +373,7 @@ const menu = [
     title: '2 cada 8hs',
     category: 'Fórmulas-magistrales',
     price: 330,
+    img: './images/item-1.png',
     desc: 'Ron blanco, vermut bianco, almíbar de miel, jugo de naranja, lima.'
   },
   {
@@ -336,6 +381,7 @@ const menu = [
     title: 'Jarabe para la tos',
     category: 'Fórmulas-magistrales',
     price: 330,
+    img: './images/item-1.png',
     desc: 'Tequila, licor de cassis, pomelo, lima, menta.'
   },
   {
@@ -343,6 +389,7 @@ const menu = [
     title: 'Terapia de media noche',
     category: 'Fórmulas-magistrales',
     price: 350,
+    img: './images/item-1.png',
     desc: 'Los intocables Malbec, Whisky Escocés, Triple sec, Punt e mes, Jugo de naranja, lima, almíbar, cardamomo, clavo de olor, canela y menta.'
   },
   {
@@ -350,6 +397,7 @@ const menu = [
     title: 'Valium',
     category: 'Fórmulas-magistrales',
     price: 350,
+    img: './images/item-1.png',
     desc: 'Absenta, vermut bianco, Gin Gordon’s, truple sec, jugo de lima, aquafaba y anís estrellado.'
   },
   {
@@ -357,6 +405,7 @@ const menu = [
     title: 'Ritalin',
     category: 'Fórmulas-magistrales',
     price: 350,
+    img: './images/item-1.png',
     desc: 'Absenta,  Brandy, Almíbar de IPA, Jugo de naranja, bitter’s y twist de naranja.'
   },
   {
@@ -364,13 +413,15 @@ const menu = [
     title: 'Remedio Escocés',
     category: 'Fórmulas-magistrales',
     price: 380,
+    img: './images/item-1.png',
     desc: 'Johnnie Walker Red, almíbar de mascabo, canela y cayena, Jugo de limón, Piel de limón y canela.'
   },
   {
     id: 53,
-    title: 'BBQ Chicken Tendedr´s',
+    title: 'BBQ Chicken Tender´s',
     category: 'Comidas',
     price: 380,
+    img: './images/item-1.png',
     desc: 'Tenders rebozados con salsa BBQ.'
   },
 ]
