@@ -50,7 +50,7 @@ function App() {
     <main>
       <section className="wrapper">
         <div className="title">
-          <h1>Bar Consultorio</h1>
+          <h1 className="text-red-500">Bar Consultorio</h1>
           <div className="underline"></div>
         </div>
         <Categories categories={categories} filterItems={filterItems} />
