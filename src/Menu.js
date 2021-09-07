@@ -11,10 +11,13 @@ const Menu = ({ items }) => {
               <header>
                 <h2 className="item-title">{title}</h2>
                 <p className='item-text'>{desc}</p>
-              </header>
-              <div className="imgContainer"> 
-              <img src={img} width="100" height="100" alt={title} className='photo' />
+                <div className="priceContainer">
                 <h3 className='price'>${price}</h3>
+                </div>
+              </header>
+              <div className="imgContainer">
+                <img src={img} width="100" height="100" alt={title} className='photo' />
+
               </div>
             </div>
           </article>

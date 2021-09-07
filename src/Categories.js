@@ -10,11 +10,11 @@ const Categories = ({ categories, filterItems }, props) => {
   const [open, setOpen] = useState(false);
 
   const hamburguerIcon = <MdRestaurantMenu className='icon'
-    size='45px'
+    size='50px'
     onClick={() => setOpen(!open)}
   />
   const closeIcon = <CgClose className='iconClose'
-    size='30px' color='var(--clr-gold)'
+    size='50px' 
     onClick={() => setOpen(!open)}
   />
   const closeMobileMenu = () => setOpen(false);
