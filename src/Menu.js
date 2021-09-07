@@ -13,7 +13,7 @@ const Menu = ({ items }) => {
                 <p className='item-text'>{desc}</p>
               </header>
               <div className="imgContainer"> 
-              <img src={img} width="150" height="250" alt={title} className='photo' />
+              <img src={img} width="100" height="100" alt={title} className='photo' />
                 <h3 className='price'>${price}</h3>
               </div>
             </div>

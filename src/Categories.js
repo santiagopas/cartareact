@@ -1,12 +1,27 @@
 import React from 'react';
-import {CgMenuRound} from 'react-icons/cg'
+import { MdRestaurantMenu } from 'react-icons/md'
+import { CgClose } from 'react-icons/cg'
+import { useState } from 'react';
 
-const Categories = ({ categories, filterItems }) => {
+
+
+const Categories = ({ categories, filterItems }, props) => {
+
+  const [open, setOpen] = useState(false);
+
+  const hamburguerIcon = <MdRestaurantMenu className='icon'
+    size='45px'
+    onClick={() => setOpen(!open)}
+  />
+  const closeIcon = <CgClose className='iconClose'
+    size='30px' color='var(--clr-gold)'
+    onClick={() => setOpen(!open)}
+  />
+  const closeMobileMenu = () => setOpen(false);
   return (
     <nav className="btn-container">
-      <CgMenuRound>
-        </CgMenuRound>
-      <ul>
+      {open ? closeIcon : hamburguerIcon}
+      {open && <ul className="menuContainer">
         {categories.map((category, index) => {
           return (
             <li>
@@ -23,7 +38,8 @@ const Categories = ({ categories, filterItems }) => {
           );
         })}
       </ul>
-
+        // isMobile={true} closeMobileMenu={closeMobileMenu}
+      }
     </nav>
   );
 };
