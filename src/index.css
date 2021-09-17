@@ -276,9 +276,9 @@ p {
   .section-center {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-gap: 1% 1%;
-    gap: 2em;
+    gap: 1em;
     padding: 2rem;
   }
 }
