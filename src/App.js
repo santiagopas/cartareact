@@ -35,7 +35,7 @@ const allCategories = ['todos', ...new Set(items.map((item) => item.category))];
 
 function App() {
   const [menuItems, setMenuItems] = useState(items);
-  const [categories, setCategories] = useState(allCategories);
+  const [categories] = useState(allCategories);
 
   const filterItems = (category) => {
     if (category === 'todos') {
@@ -50,7 +50,7 @@ function App() {
     <main>
       <section className="wrapper">
         <div className="title">
-          <h1 className="text-gray-100">Bar Consultorio</h1>
+          <h1 className="consulTitle">Bar Consultorio</h1>
           <div className="underline"></div>
         </div>
         <Menu items={menuItems} />
