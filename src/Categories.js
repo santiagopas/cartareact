@@ -28,7 +28,7 @@ const Categories = ({ categories, filterItems }, props) => {
               <a
                 type="button"
                 href="/#"
-                className="filter-btn"
+                className="filter-btn "
                 key={index}
                 onClick={() => filterItems(category)}
               >
